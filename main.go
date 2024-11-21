@@ -1,8 +1,8 @@
 package main
 
-import "SIMULADOR/views"
+import "SIMULADOR/src/views"
 
 func main() {
-	view := views.NewView()
-	view.RunView()
+	vistaPrincipal := views.NuevaVistaPrincipal()
+	vistaPrincipal.Ejecutar()
 }
